@@ -32,11 +32,6 @@
     "psr-4": { "Cfs\\SkelBundle\\": "" }
   },
   "target-dir" : "cfs/skel-bundle",
-  "extra": {
-    "branch-alias": {
-      "dev-master": "0.1.x-dev"
-    }
-  },
   "support": {
     "docs": "http://appconf.cfs.dev:8090/display/CFS/SkelBundle"
   }
