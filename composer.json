@@ -1,0 +1,43 @@
+{
+  "name": "confirmsigg/skel-bundle",
+  "type": "symfony-bundle",
+  "description": "Symfony SkelBundle",
+  "keywords": ["Skel Bundle"],
+  "homepage": "https://bitbucket.org/confirmsign-ondemand",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Confirmsign Develop",
+      "email": "develop@confirmsign.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.6.14",
+    "symfony/framework-bundle": "2.7.6"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "5.0.9",
+    "doctrine/doctrine-bundle": "~1.4",
+    "behat/behat": "~3.0",
+    "behat/symfony2-extension": "~2.0",
+    "behat/mink": "~1.5",
+    "behat/mink-extension": "~2.0",
+    "behat/mink-browserkit-driver": "~1.1",
+    "behatch/contexts": "dev-master"
+  },
+  "suggest": {
+    "raulfraile/ladybug-bundle": "This bundle provides an easy and extensible var_dump/print_r "
+  },
+  "autoload": {
+    "psr-4": { "Cfs\\SkelBundle\\": "" }
+  },
+  "target-dir" : "cfs/skel-bundle",
+  "extra": {
+    "branch-alias": {
+      "dev-master": "0.1.x-dev"
+    }
+  },
+  "support": {
+    "docs": "http://appconf.cfs.dev:8090/display/CFS/SkelBundle"
+  }
+}
