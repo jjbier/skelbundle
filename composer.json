@@ -1,5 +1,5 @@
 {
-  "name": "confirmsigg/skel-bundle",
+  "name": "confirmsign/skel-bundle",
   "type": "symfony-bundle",
   "description": "Symfony SkelBundle",
   "keywords": ["Skel Bundle"],
